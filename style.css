@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container-jadwal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.table-jadwal {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-jadwal th,
+.table-jadwal td {
+    border: 1px solid #333;
+    padding: 12px;
+}
+
+.bg-grey { background: #e0e0e0; font-weight: bold; }
+.bg-senin { background: #ffcccb; }
+.bg-selasa { background: #90ee90; }
+.bg-rabu { background: #ccccff; }
+.bg-kamis { background: #fafad2; }
